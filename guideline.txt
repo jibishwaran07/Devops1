@@ -1,0 +1,21 @@
+NEW FILE ADDED AS BRANCH
+
+
+
+git --version
+git clone git@github.com:jibishwaran07/Devops1.git
+vim config
+git status
+git add .
+git status
+git commit -m
+git push origin main
+git pull
+git branch branchname
+git branch -a
+git checkout branchname
+git push commemts to be used
+git log
+git tag tagname commitId
+git push origin tagname
+~                        
