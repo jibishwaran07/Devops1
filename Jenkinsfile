@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Run Shell Script') {
             steps {
-                sh './script.sh'
+                sh './shellfile.sh'
             }
         }
 
         stage('Run Python Script') {
             steps {
-                sh 'python3 script.py'
+                sh 'python3 python2.py'
             }
         }
     }
