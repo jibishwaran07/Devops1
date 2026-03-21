@@ -1,0 +1,7 @@
+Added book: The Alchemist
+Added book: 1984
+Added book: To Kill a Mockingbird
+Added book: Atomic Habits
+Issued book: 1984
+Issued book: Atomic Habits
+Returned book: Atomic Habits
