@@ -2,16 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Run Shell Script') {
             steps {
-                echo "Hello from Jenkins on Linux!"
+                sh './script.sh'
             }
         }
 
-        stage('Run Script') {
+        stage('Run Python Script') {
             steps {
-                sh 'echo Running a shell command...'
-                sh 'echo Pipeline working successfully!'
+                sh 'python3 script.py'
             }
         }
     }
